@@ -1,6 +1,10 @@
 import React from "react";
-import { selectSong } from "../actions";
+import SongList from "./SongList";
 
 export default function App() {
-  return <div>hi from app</div>;
+  return (
+    <div>
+      <SongList />
+    </div>
+  );
 }
